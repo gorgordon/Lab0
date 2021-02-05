@@ -9,5 +9,4 @@ void loop() {
     input = Serial.read();
     Serial.print(input);
   }
-  //Add a comment feature LED
 }
