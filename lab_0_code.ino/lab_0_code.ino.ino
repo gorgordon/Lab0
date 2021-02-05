@@ -8,7 +8,5 @@ void loop() {
   if (Serial.available() > 0) {
     input = Serial.read();
     Serial.print(input);
-    //Add comment
-    //Add Led
   }
 }
